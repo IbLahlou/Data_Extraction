@@ -1,0 +1,35 @@
+Course Code,Course Name,ID,First Name,Last Name,Email,Notes (out of 100)
+CS101,Introduction to CS,,,,,
+MATH201,Advanced Mathematics,,,,,
+PHY301,Physics Principles,,,,,
+CHEM101,Chemistry Basics,,,,,
+BIOLOGY202,Biology Advanced,,,,,
+ENG102,English Composition,,,,,
+HISTORY101,World History,,,,,
+ECONOMICS301,Economics Principles,,,,,
+PSYCH101,Intro to Psychology,,,,,
+ARTS202,Fine Arts Appreciation,,,,,
+,,101.0,John,Smith,john.smith@example.com,78.0
+,,102.0,Emily,Johnson,emily.johnson@example.com,85.0
+,,103.0,Michael,Williams,michael.williams@example.com,92.0
+,,104.0,Emma,Brown,emma.brown@example.com,76.0
+,,105.0,James,Jones,james.jones@example.com,88.0
+,,106.0,Olivia,Davis,olivia.davis@example.com,95.0
+,,107.0,William,Martinez,william.martinez@example.com,81.0
+,,108.0,Sophia,Robinson,sophia.robinson@example.com,90.0
+,,109.0,Liam,Clark,liam.clark@example.com,87.0
+,,110.0,Ava,Rodriguez,ava.rodriguez@example.com,84.0
+,,111.0,Noah,Lewis,noah.lewis@example.com,76.0
+,,112.0,Isabella,Lee,isabella.lee@example.com,89.0
+,,113.0,Ethan,Scott,ethan.scott@example.com,93.0
+,,114.0,Mia,Hall,mia.hall@example.com,80.0
+,,115.0,Benjamin,Wright,benjamin.wright@example.com,82.0
+,,116.0,Charlotte,King,charlotte.king@example.com,91.0
+,,117.0,Alexander,White,alexander.white@example.com,88.0
+,,,,,,
+,,118.0,Grace,Hill,grace.hill@example.com,85.0
+,,,,,,
+,,119.0,Henry,Allen,henry.allen@example.com,79.0
+,,,,,,
+,,120.0,Lillian,Turner,lillian.turner@example.com,94.0
+,,,,,,

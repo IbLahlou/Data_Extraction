@@ -1,0 +1,23 @@
+query {
+  company {
+    name
+    location
+    foundedYear
+    ceo {
+      name
+      age
+    }
+    employees {
+      id
+      name
+      age
+      email
+      departments
+      address {
+        street
+        city
+        zipcode
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 30,
+      "email": "john@example.com",
+      "departments": ["HR", "Finance"],
+      "address": {
+        "street": "123 Main Street",
+        "city": "New York",
+        "zipcode": "10001"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Alice Smith",
+      "age": 28,
+      "email": "alice@example.com",
+      "departments": ["Engineering", "Product"],
+      "address": {
+        "street": "456 Park Avenue",
+        "city": "Los Angeles",
+        "zipcode": "90001"
+      }
+    }
+  ],
+  "company": {
+    "name": "XYZ Corp",
+    "location": "United States",
+    "founded_year": 2005,
+    "ceo": {
+      "name": "Michael Johnson",
+      "age": 45
+    }
+  }
+}

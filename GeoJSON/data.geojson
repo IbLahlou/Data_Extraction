@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Central Park",
+        "category": "Park",
+        "area_km2": 3.41
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-73.9657, 40.7828],
+            [-73.9558, 40.7763],
+            [-73.9432, 40.7821],
+            [-73.9491, 40.7895],
+            [-73.9657, 40.7828]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Empire State Building",
+        "category": "Landmark",
+        "height_m": 443.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9857, 40.7488]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hudson River",
+        "category": "River",
+        "length_km": 507
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.0163, 40.7011],
+          [-73.9897, 40.7339],
+          [-73.9548, 40.7952]
+        ]
+      }
+    }
+  ]
+}

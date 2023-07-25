@@ -1,0 +1,32 @@
+# Employees Information
+employees:
+  - name: John Doe
+    age: 30
+    gender: Male
+    departments:
+      - HR
+      - Finance
+    address:
+      street: 123 Main Street
+      city: New York
+      zipcode: "10001"
+
+  - name: Alice Smith
+    age: 28
+    gender: Female
+    departments:
+      - Engineering
+      - Product
+    address:
+      street: 456 Park Avenue
+      city: Los Angeles
+      zipcode: "90001"
+
+# Company Information
+company:
+  name: XYZ Corp
+  location: United States
+  founded_year: 2005
+  ceo:
+    name: Michael Johnson
+    age: 45

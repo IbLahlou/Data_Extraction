@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Product Page</title>
+    
+    <!-- CSS -->
+    <style>
+        /* Custom CSS styles */
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            width: 300px;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 0.5rem;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .card-title {
+            margin-bottom: 0;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        .product-info {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .product-price {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .product-rating {
+            margin-top: 0.5rem;
+        }
+
+        .availability-badge {
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            color: #ffffff;
+            font-size: 0.9rem;
+        }
+
+        .bg-available {
+            background-color: #28a745;
+        }
+
+        .bg-out-of-stock {
+            background-color: #dc3545;
+        }
+
+        .add-to-cart-button {
+            margin-top: 1rem;
+            padding: 0.75rem 1rem;
+            border-radius: 50px;
+            font-size: 1rem;
+        }
+
+        .add-to-cart-button:hover {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+    </style>
+
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Product to Scrape </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <div class="container">
+        <!-- Product 1 -->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Chocolat Cake</h3>
+            </div>
+            <div class="card-body">
+                <img src="choco_cake_web.jpeg" alt="Product 1 Image" class="card-img">
+                <div class="product-info">
+                    <p class="lead">Description: Web Chocolate Cake - a pretty cake  adorned with web-themed decorations</p>
+                    <p class="product-price">Price: <strong>$10</strong></p>
+                    <p class="product-rating">Rating: <span class="badge bg-success">4.5 stars</span></p>
+                    <p class="availability-badge bg-available">In Stock</p>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 2 (Replicate the card section for each product) -->
+<div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Airpod</h3>
+            </div>
+            <div class="card-body">
+                <img src="airpod.jpeg" alt="Product 1 Image" class="card-img">
+                <div class="product-info">
+                    <p class="lead">Description: Original AirPods - Experience the freedom of true wireless listening</p>
+                    <p class="product-price">Price: <strong>$30</strong></p>
+                    <p class="product-rating">Rating: <span class="badge bg-success">4.3 stars</span></p>
+                    <p class="availability-badge bg-available">In Stock</p>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Lego Game</h3>
+            </div>
+            <div class="card-body">
+                <img src="lego.jpeg" alt="Product 3 Image" class="card-img">
+                <div class="product-info">
+                    <p class="lead">Description: Lego Game - Embark on a creative adventure with the Lego Game.</p>
+                    <p class="product-price">Price: <strong>$12</strong></p>
+                    <p class="product-rating">Rating: <span class="badge bg-success">4.2 stars</span></p>
+                    <p class="availability-badge bg-out-of-stock">Out of Stock</p>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+        <!-- Continue with Product 4 to Product 10 -->
+    </div>
+
+    <!-- Bootstrap JS Link (Optional, if you need to use Bootstrap JS features) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
